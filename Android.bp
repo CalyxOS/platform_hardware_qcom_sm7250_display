@@ -40,7 +40,7 @@ display_go_defaults_sm7250 {
 
 cc_defaults {
     name: "display_defaults",
-    defaults: ["display_go_defaults"],
+    defaults: ["display_go_defaults", "gralloc_handle_has_reserved_size_defaults"],
     cflags: [
         "-Wno-missing-field-initializers",
         "-Wconversion",
