@@ -36,6 +36,9 @@ license {
 
 display_go_defaults_sm7250 {
     name: "display_go_defaults",
+    defaults: [
+        "gralloc_handle_has_reserved_size_defaults",
+    ],
 }
 
 cc_defaults {
